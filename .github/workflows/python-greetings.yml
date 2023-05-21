@@ -32,6 +32,7 @@ jobs:
         with:
           repository: 'mtararujs/python-greetings'
           path: 'deploy'
+          clean: false
       - uses: ./.github/actions/deploy
         with:
           environment: 'DEV'
@@ -41,6 +42,8 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3.5.2
+        with:
+          clean: false
       - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/course-js-api-framework'
