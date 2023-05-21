@@ -18,6 +18,6 @@ runs:
     - name: Delete service
       shell: powershell
       working-directory: tests
-      run:  pm2 delete greetings-app-${{ inputs.environment }} & set "errorlevel=0"
+      run:  pm2 delete greetings-app-${{ inputs.environment }} && set "errorlevel=0"
 #    - name: Delete service
 #      run: pm2 start -n "books-${{ inputs.environment }}" index.js -- ${{ inputs.port }}
