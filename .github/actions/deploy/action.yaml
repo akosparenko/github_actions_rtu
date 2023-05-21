@@ -22,4 +22,4 @@ runs:
       run:  pm2 delete greetings-app-${{ inputs.environment }}; if ($LASTEXITCODE -eq 100) { $true }
     - name: Start service
       shell: powershell
-      run: pm2 start app.py --name greetings-app-${{ inputs.environment }} --port ${{ inputs.port }}
+      run: pm2 start app.py --name greetings-app-${{ inputs.environmSSSent }} ----port ${{ inputs.port }}
