@@ -15,6 +15,16 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  install-pip-deps:
+  deploy-to-dev:
+  tests-on-dev:
+  deploy-to-staging:
+  tests-on-staging:
+  deploy-to-preprod:
+  tests-on-preprod:
+  deploy-to-prod:
+  Tests-on-prod:
+
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
