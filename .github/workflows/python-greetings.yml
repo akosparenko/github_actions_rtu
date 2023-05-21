@@ -22,8 +22,8 @@ jobs:
       - uses: ./.github/actions/build
       - uses: actions/checkout@v3.5.2
         with:
-          repository: 'mtararujs/python-greetings'
-          path: 'tests'
+          repository: 'akosparenko/5_pr_d'
+          path: 'a'
           submodules: true
   deploy-to-dev:
     runs-on: self-hosted
