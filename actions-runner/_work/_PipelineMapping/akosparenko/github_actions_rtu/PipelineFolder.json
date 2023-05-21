@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "akosparenko/github_actions_rtu",
+  "pipelineDirectory": "github_actions_rtu",
+  "workspaceDirectory": "github_actions_rtu\\github_actions_rtu",
+  "repositories": {
+    "akosparenko/github_actions_rtu": {
+      "repositoryPath": "github_actions_rtu\\github_actions_rtu",
+      "lastRunOn": "05/21/2023 18:43:30 +03:00"
+    }
+  },
+  "lastRunOn": "05/21/2023 18:44:52 +03:00"
+}

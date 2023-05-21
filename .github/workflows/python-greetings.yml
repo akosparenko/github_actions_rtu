@@ -18,49 +18,49 @@ jobs:
   install-pip-deps:
     runs-on: self-hosted
     steps:
+      - uses: actions/checkout@v3.5.2
+        with: 'mtararujs/python-greetings'
       - run: echo Install Python dependencies!
   deploy-to-dev:
     runs-on: self-hosted
     steps:
       - run: echo Deploying to DEV...
-    needs: install-pip-deps
+    needs: [install-pip-deps]
   tests-on-dev:
     runs-on: self-hosted
     steps:
       - run: echo Running tests on DEV...
-    needs: [ install-pip-deps,deploy-to-dev ]
+    needs: [ deploy-to-dev ]
   deploy-to-staging:
     runs-on: self-hosted
     steps:
       - run: echo Deploying to STAGING
-    needs: [ install-pip-deps,deploy-to-dev, tests-on-dev ]
+    needs: [ tests-on-dev ]
   tests-on-staging:
     runs-on: self-hosted
     steps:
       - run: echo Running tests on STAGING
-    needs: [ install-pip-deps,deploy-to-dev, tests-on-dev,deploy-to-staging ]
+    needs: [ deploy-to-staging ]
   deploy-to-preprod:
     runs-on: self-hosted
     steps:
       - run: echo Deploying on PRE_PROD
-    needs: [ install-pip-deps,deploy-to-dev, tests-on-dev,deploy-to-staging,tests-on-staging ]
+    needs: [ tests-on-staging ]
   tests-on-preprod:
     runs-on: self-hosted
     steps:
       - run: echo Running tests on PRE_PROD
-    needs: [ install-pip-deps,deploy-to-dev, tests-on-dev,deploy-to-staging,tests-on-staging,deploy-to-preprod ]
+    needs: [ deploy-to-preprod ]
   deploy-to-prod:
     runs-on: self-hosted
     steps:
       - run: echo Deploying to PROD
-    needs: [ install-pip-deps,deploy-to-dev, tests-on-dev,deploy-to-staging,tests-on-staging,deploy-to-preprod,
-             tests-on-preprod ]
+    needs: [ tests-on-preprod ]
   Tests-on-prod:
     runs-on: self-hosted
     steps:
       - run: echo Running tests on PROD
-    needs: [ install-pip-deps,deploy-to-dev, tests-on-dev,deploy-to-staging,tests-on-staging,deploy-to-preprod,
-             tests-on-preprod,deploy-to-prod ]
+    needs: [ deploy-to-prod ]
 
   # This workflow contains a single job called "build"
   build:
