@@ -19,6 +19,8 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3.5.2
+        with:
+          clean: false
       - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/python-greetings'
@@ -28,6 +30,8 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3.5.2
+        with:
+          clean: false
       - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/python-greetings'
@@ -66,6 +70,8 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3.5.2
+        with:
+          clean: false
       - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/course-js-api-framework'
@@ -88,6 +94,8 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3.5.2
+        with:
+          clean: false
       - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/course-js-api-framework'
