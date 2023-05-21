@@ -33,7 +33,7 @@ jobs:
           path: 'tests'
       - uses: ./.github/actions/deploy
         with:
-          environemnt: 'DEV'
+          environment: 'DEV'
     needs: [ install-pip-deps ]
   tests-on-dev:
     runs-on: self-hosted
@@ -54,7 +54,7 @@ jobs:
           path: 'tests'
       - uses: ./.github/actions/deploy
         with:
-          environemnt: 'STAGING'
+          environment: 'STAGING'
     needs: [ tests-on-dev ]
   tests-on-staging:
     runs-on: self-hosted
@@ -75,7 +75,7 @@ jobs:
           path: 'tests'
       - uses: ./.github/actions/deploy
         with:
-          environemnt: 'PRE_PROD'
+          environment: 'PRE_PROD'
     needs: [ tests-on-staging ]
   tests-on-preprod:
     runs-on: self-hosted
@@ -94,7 +94,7 @@ jobs:
           path: 'tests'
       - uses: ./.github/actions/deploy
         with:
-          environemnt: 'PROD'
+          environment: 'PROD'
     needs: [ tests-on-preprod ]
   Tests-on-prod:
     runs-on: self-hosted
