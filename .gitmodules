@@ -1,3 +1,6 @@
 [submodule "python-greetings"]
 	path = python-greetings
 	url = https://github.com/mtararujs/python-greetings.git
+[submodule "course-js-api-framework"]
+	path = course-js-api-framework
+	url = https://github.com/mtararujs/course-js-api-framework
