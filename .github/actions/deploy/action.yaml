@@ -16,8 +16,8 @@ runs:
       run: pip install -r requirements.txt
       shell: powershell
     - name: Delete service
-      shell: powershell
+      shell: bash
       working-directory: tests
-      run:  pm2 delete greetings-app-${{ inputs.environment }};  EXIT /B 0
+      run:  pm2 delete greetings-app-${{ inputs.environment }}; set "errorlevel=0"
 #    - name: Delete service
 #      run: pm2 start -n "books-${{ inputs.environment }}" index.js -- ${{ inputs.port }}

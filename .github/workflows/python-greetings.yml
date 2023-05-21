@@ -34,6 +34,7 @@ jobs:
       - uses: ./.github/actions/deploy
         with:
           environment: 'DEV'
+          port: 7001
     needs: [ install-pip-deps ]
   tests-on-dev:
     runs-on: self-hosted
@@ -55,6 +56,7 @@ jobs:
       - uses: ./.github/actions/deploy
         with:
           environment: 'STAGING'
+          port: 7002
     needs: [ tests-on-dev ]
   tests-on-staging:
     runs-on: self-hosted
@@ -76,6 +78,7 @@ jobs:
       - uses: ./.github/actions/deploy
         with:
           environment: 'PRE_PROD'
+          port: 7003
     needs: [ tests-on-staging ]
   tests-on-preprod:
     runs-on: self-hosted
@@ -95,6 +98,7 @@ jobs:
       - uses: ./.github/actions/deploy
         with:
           environment: 'PROD'
+          port: 7004
     needs: [ tests-on-preprod ]
   Tests-on-prod:
     runs-on: self-hosted
