@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/python-greetings'
-          path: 'deploy'
+          path: 'tests'
       - uses: ./.github/actions/build
   deploy-to-dev:
     runs-on: self-hosted
@@ -35,7 +35,7 @@ jobs:
       - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/python-greetings'
-          path: 'deploy'
+          path: 'tests'
           clean: false
       - uses: ./.github/actions/deploy
         with:
