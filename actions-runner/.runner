@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 23,
-  "agentName": "DESKTOP-O7SHKV4",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelines.actions.githubusercontent.com/W4n4zUjpBHuGRnBhnhtYmaBcgYxIrrMLzUa02muoSI4xAWJCYG",
-  "gitHubUrl": "https://github.com/akosparenko/github_actions_rtu",
-  "workFolder": "_work"
-}
