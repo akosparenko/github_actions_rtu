@@ -12,15 +12,15 @@ runs:
       run: echo Deployment to ${{ inputs.environment }} has started..
       shell: powershell
     - name: echo Install de
-      working-directory: tests
+      working-directory: deploy
       run: pip install -r requirements.txt
       shell: powershell
     - name: Delete service
       shell: powershell
-      working-directory: tests
+      working-directory: deploy
       continue-on-error: true
       run: pm2 delete greetings-app-${{ inputs.environment }}; if ($LASTEXITCODE -eq 100) { $true }
     - name: Start service
       shell: powershell
-      working-directory: tests
+      working-directory: deploy
       run: pm2 start app.py --name greetings-app-${{ inputs.environment }}

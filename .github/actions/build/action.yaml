@@ -2,6 +2,6 @@ runs:
   using: "composite"
   steps:
     - name: echo Install dependepcies
-      working-directory: tests
+      working-directory: deploy
       run: pip install -r requirements.txt
       shell: powershell
