@@ -115,6 +115,7 @@ jobs:
         with:
           repository: 'mtararujs/python-greetings'
           path: 'tests'
+          clean: false
       - uses: ./.github/actions/deploy
         with:
           environment: 'PROD'
@@ -126,6 +127,7 @@ jobs:
       - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/python-greetings'
+          clean: false
       - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/course-js-api-framework'
