@@ -15,15 +15,15 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  install-pip-deps:
-    runs-on: self-hosted
-    steps:
-      - uses: actions/checkout@v3.5.2
-      - uses: actions/checkout@v3.5.2
-        with:
-          repository: 'mtararujs/python-greetings'
-          path: 'tests'
-      - uses: ./.github/actions/build
+#  install-pip-deps:
+#    runs-on: self-hosted
+#    steps:
+#      - uses: actions/checkout@v3.5.2
+#      - uses: actions/checkout@v3.5.2
+#        with:
+#          repository: 'mtararujs/python-greetings'
+#          path: 'tests'
+#      - uses: ./.github/actions/build
   deploy-to-dev:
     runs-on: self-hosted
     steps:
