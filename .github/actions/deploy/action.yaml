@@ -23,4 +23,4 @@ runs:
     - name: Start service
       shell: powershell
       working-directory: tests
-      run: pm2 start app.py --name greetings-app-${{ inputs.environmSSSent }} ----port ${{ inputs.port }}
+      run: pm2 start app.py --name greetings-app-${{ inputs.environmSSSent }} -- --port ${{ inputs.port }}
