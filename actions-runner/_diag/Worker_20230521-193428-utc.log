@@ -1,0 +1,2640 @@
+[2023-05-21 19:34:28Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:28Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials'
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:28Z INFO HostContext] Well known config file 'Runner': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.runner'
+[2023-05-21 19:34:28Z INFO Worker] Version: 2.304.0
+[2023-05-21 19:34:28Z INFO Worker] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-05-21 19:34:28Z INFO Worker] Culture: en-US
+[2023-05-21 19:34:28Z INFO Worker] UI Culture: en-US
+[2023-05-21 19:34:28Z INFO Worker] Waiting to receive the job message from the channel.
+[2023-05-21 19:34:28Z INFO ProcessChannel] Receiving message of length 21237, with hash 'bed61852c731e9cbf59fafe606433f38a80c81920c6860b0bb6ffe25d4edbaa8'
+[2023-05-21 19:34:28Z INFO Worker] Message received.
+[2023-05-21 19:34:28Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/python-greetings.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v3",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "a60052d4-79a0-5821-3eeb-84adb9872c5b",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 96,
+        "col": 15,
+        "lit": "Run a one-line script"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 97,
+              "col": 14,
+              "lit": "echo Hello, world!"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "dd23db01-cff6-57a4-373a-5c8097a97333",
+      "name": "__run"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 100,
+        "col": 15,
+        "lit": "Run a multi-line script"
+      },
+      "contextName": "__run_2",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 101,
+              "col": 14,
+              "lit": "echo Add other actions to build,\necho test, and deploy your project.\n"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "87b991c0-db8a-593e-4233-d8a37f15e4c9",
+      "name": "__run_2"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": ""
+    },
+    "system.pipelineStartTime": {
+      "value": "2023-05-21 19:34:26+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "16"
+    },
+    "build.containerId": {
+      "value": "1857381"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/python-greetings.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "build"
+    },
+    "system.phaseId": {
+      "value": "6884a131-87da-5381-61f3-d7acc3b91d76"
+    },
+    "system.phaseName": {
+      "value": "build"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "build.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "build"
+    },
+    "system.jobDisplayName": {
+      "value": "build"
+    },
+    "system.jobId": {
+      "value": "ca395085-040a-526b-2ce8-bdc85f692774"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.orchestrationId": {
+      "value": "ab05b7e9-9f47-4cd0-9712-8182bdd98272.build.__default"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 31,
+    "planId": "ab05b7e9-9f47-4cd0-9712-8182bdd98272",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/16",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "github_actions_rtu"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "akosparenko"
+    }
+  },
+  "timeline": {
+    "id": "ab05b7e9-9f47-4cd0-9712-8182bdd98272",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "ca395085-040a-526b-2ce8-bdc85f692774",
+  "jobDisplayName": "build",
+  "jobName": "__default",
+  "requestId": 53,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "def17596-12a2-4f84-a546-babb4b8ce460",
+          "ServerName": "W4n4zUjpBHuGRnBhnhtYmaBcgYxIrrMLzUa02muoSI4xAWJCYG",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/W4n4zUjpBHuGRnBhnhtYmaBcgYxIrrMLzUa02muoSI4xAWJCYG/",
+          "FeedStreamUrl": "https://pipelines.actions.githubusercontent.com/W4n4zUjpBHuGRnBhnhtYmaBcgYxIrrMLzUa02muoSI4xAWJCYG/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/ab05b7e9-9f47-4cd0-9712-8182bdd98272/timelines/ab05b7e9-9f47-4cd0-9712-8182bdd98272/records/ca395085-040a-526b-2ce8-bdc85f692774/feedstream?api-version=6.0-preview"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/W4n4zUjpBHuGRnBhnhtYmaBcgYxIrrMLzUa02muoSI4xAWJCYG/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/master"
+        },
+        {
+          "k": "sha",
+          "v": "e3ad85e8162227a4ff522ce2243d56c0d064c9f7"
+        },
+        {
+          "k": "repository",
+          "v": "akosparenko/github_actions_rtu"
+        },
+        {
+          "k": "repository_owner",
+          "v": "akosparenko"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "69088833"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/akosparenko/github_actions_rtu.git"
+        },
+        {
+          "k": "run_id",
+          "v": "5039374555"
+        },
+        {
+          "k": "run_number",
+          "v": "19"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repository_id",
+          "v": "643341685"
+        },
+        {
+          "k": "actor_id",
+          "v": "69088833"
+        },
+        {
+          "k": "actor",
+          "v": "akosparenko"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "akosparenko"
+        },
+        {
+          "k": "workflow",
+          "v": "CI"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "e3ad85e8162227a4ff522ce2243d56c0d064c9f7"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "6c43745e64dc0b0a5c6efd2c2dba8abe6fd54de3"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "akosparenko@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Arturs Kosparenko"
+                              },
+                              {
+                                "k": "username",
+                                "v": "akosparenko"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "akosparenko@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Arturs Kosparenko"
+                              },
+                              {
+                                "k": "username",
+                                "v": "akosparenko"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "e3ad85e8162227a4ff522ce2243d56c0d064c9f7"
+                        },
+                        {
+                          "k": "message",
+                          "v": "1"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2023-05-21T22:34:20+03:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "5beb3d9f16be4ac80735375ca706c58a7daa637a"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/akosparenko/github_actions_rtu/commit/e3ad85e8162227a4ff522ce2243d56c0d064c9f7"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/akosparenko/github_actions_rtu/compare/6c43745e64dc...e3ad85e81622"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "akosparenko@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Arturs Kosparenko"
+                          },
+                          {
+                            "k": "username",
+                            "v": "akosparenko"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "akosparenko@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Arturs Kosparenko"
+                          },
+                          {
+                            "k": "username",
+                            "v": "akosparenko"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "e3ad85e8162227a4ff522ce2243d56c0d064c9f7"
+                    },
+                    {
+                      "k": "message",
+                      "v": "1"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2023-05-21T22:34:20+03:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "5beb3d9f16be4ac80735375ca706c58a7daa637a"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/akosparenko/github_actions_rtu/commit/e3ad85e8162227a4ff522ce2243d56c0d064c9f7"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "69088833+akosparenko@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "akosparenko"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/master"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/akosparenko/github_actions_rtu.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1684617204.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "akosparenko/github_actions_rtu"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/akosparenko/github_actions_rtu.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": false
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/akosparenko/github_actions_rtu"
+                    },
+                    {
+                      "k": "id",
+                      "v": 643341685.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "JavaScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "github_actions_rtu"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOJliddQ"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/69088833?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "69088833+akosparenko@users.noreply.github.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/akosparenko/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/akosparenko/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/akosparenko/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/akosparenko/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/akosparenko"
+                          },
+                          {
+                            "k": "id",
+                            "v": 69088833.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "akosparenko"
+                          },
+                          {
+                            "k": "name",
+                            "v": "akosparenko"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjY5MDg4ODMz"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/akosparenko/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/akosparenko/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/akosparenko/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/akosparenko/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/akosparenko/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/akosparenko"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1684697664.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 141686.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:akosparenko/github_actions_rtu.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/akosparenko/github_actions_rtu"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/akosparenko/github_actions_rtu/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2023-05-21T19:33:32Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/akosparenko/github_actions_rtu"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/69088833?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/akosparenko/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/akosparenko/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/akosparenko/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/akosparenko/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/akosparenko"
+                    },
+                    {
+                      "k": "id",
+                      "v": 69088833.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "akosparenko"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjY5MDg4ODMz"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/akosparenko/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/akosparenko/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/akosparenko/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/akosparenko/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/akosparenko/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/akosparenko"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "master"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "akosparenko/github_actions_rtu/.github/workflows/python-greetings.yml@refs/heads/master"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "e3ad85e8162227a4ff522ce2243d56c0d064c9f7"
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2023-05-21 19:34:28Z INFO JobRunner] Job ID ca395085-040a-526b-2ce8-bdc85f692774
+[2023-05-21 19:34:28Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/W4n4zUjpBHuGRnBhnhtYmaBcgYxIrrMLzUa02muoSI4xAWJCYG/
+[2023-05-21 19:34:28Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.dll
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:28Z INFO ConfigurationStore] binPath: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:28Z INFO ConfigurationStore] RootFolder: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:28Z INFO HostContext] Well known config file 'Runner': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.runner'
+[2023-05-21 19:34:28Z INFO ConfigurationStore] ConfigFilePath: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.runner
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:28Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials'
+[2023-05-21 19:34:28Z INFO ConfigurationStore] CredFilePath: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:28Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_migrated'
+[2023-05-21 19:34:28Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_migrated
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:28Z INFO HostContext] Well known config file 'Service': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.service'
+[2023-05-21 19:34:28Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.service
+[2023-05-21 19:34:28Z INFO ConfigurationStore] Read setting file: 311 chars
+[2023-05-21 19:34:28Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-05-21 19:34:28Z INFO Worker] Listening for cancel message from the channel.
+[2023-05-21 19:34:28Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2023-05-21 19:34:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-05-21 19:34:29Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/W4n4zUjpBHuGRnBhnhtYmaBcgYxIrrMLzUa02muoSI4xAWJCYG/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/ab05b7e9-9f47-4cd0-9712-8182bdd98272/timelines/ab05b7e9-9f47-4cd0-9712-8182bdd98272/records/ca395085-040a-526b-2ce8-bdc85f692774/feedstream?api-version=6.0-preview
+[2023-05-21 19:34:29Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2023-05-21 19:34:29Z INFO JobServerQueue] Start process web console line queue.
+[2023-05-21 19:34:29Z INFO JobServerQueue] Start process file upload queue.
+[2023-05-21 19:34:29Z INFO JobServerQueue] Start results file upload queue.
+[2023-05-21 19:34:29Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-05-21 19:34:29Z INFO JobServerQueue] Start process timeline update queue.
+[2023-05-21 19:34:29Z INFO ExecutionContext] Initialize GitHub context
+[2023-05-21 19:34:29Z INFO ExecutionContext] Initialize Env context
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:29Z INFO JobRunner] Starting the job execution context.
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO JobRunner] Validating directory permissions for: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Tools': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_tool'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Temp': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_temp'
+[2023-05-21 19:34:29Z INFO JobRunner] Getting job extension.
+[2023-05-21 19:34:29Z INFO JobRunner] Initialize job. Getting all job steps.
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.setup_info'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_PipelineMapping\akosparenko/github_actions_rtu\PipelineFolder.json
+[2023-05-21 19:34:29Z INFO PipelineDirectoryManager] Updating job run properties.
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO JobExtension] Downloading actions
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:29Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:29Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/zipball/8e5e7e5ab8b370d6c329ec480221332ada57f0ab' into C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions\_temp_87525c28-59e2-47db-aca1-3b4ea3723833\ff22e9fb-8329-4eef-8b4d-6b08630a2249.zip.
+[2023-05-21 19:34:29Z INFO JobServer] Successfully started websocket client.
+[2023-05-21 19:34:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3e27820e-1c68-4079-98e3-8f4aa3b91667', success rate: 1/1.
+[2023-05-21 19:34:30Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2023-05-21 19:34:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3e27820e-1c68-4079-98e3-8f4aa3b91667', success rate: 1/1.
+[2023-05-21 19:34:30Z INFO ActionManager] Finished getting action repository.
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:30Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:30Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-05-21 19:34:30Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:30Z INFO ActionManager] Load action that reference repository from 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions\actions\checkout\v3'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:30Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-05-21 19:34:30Z INFO ActionManager] Action pre node.js file: N/A.
+[2023-05-21 19:34:30Z INFO ActionManager] Action node.js file: dist/index.js.
+[2023-05-21 19:34:30Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2023-05-21 19:34:30Z INFO JobExtension] Adding .
+[2023-05-21 19:34:31Z INFO JobExtension] Adding .
+[2023-05-21 19:34:31Z INFO JobExtension] Adding .
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:31Z INFO JobExtension] Total accessible running process: 313.
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:31Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "3e27820e-1c68-4079-98e3-8f4aa3b91667",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 2,
+  "startTime": "2023-05-21T19:34:29.4567834Z",
+  "finishTime": "2023-05-21T19:34:31.0206319Z"
+}.
+[2023-05-21 19:34:31Z INFO JobRunner] Total job steps: 3.
+[2023-05-21 19:34:31Z INFO JobRunner] Run all job steps.
+[2023-05-21 19:34:31Z INFO StepsRunner] Processing step: DisplayName='Run actions/checkout@v3'
+[2023-05-21 19:34:31Z INFO StepsRunner] Evaluating: success()
+[2023-05-21 19:34:31Z INFO StepsRunner] Result: true
+[2023-05-21 19:34:31Z INFO StepsRunner] Starting the step.
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:31Z INFO StepsRunner] Which: 'chcp'
+[2023-05-21 19:34:31Z INFO StepsRunner] Location: 'C:\Windows\system32\chcp.COM'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\system32\chcp.COM'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper] Process started with process id 19976, waiting for process exit.
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper] Finished process 19976 with exit code 0, and elapsed time 00:00:00.0127049.
+[2023-05-21 19:34:31Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:31Z INFO ActionManager] Load action that reference repository from 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions\actions\checkout\v3'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-05-21 19:34:31Z INFO ActionManager] Action pre node.js file: N/A.
+[2023-05-21 19:34:31Z INFO ActionManager] Action node.js file: dist/index.js.
+[2023-05-21 19:34:31Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2023-05-21 19:34:31Z INFO ExecutionContext] Reserve record order 5 to 8 for post job actions.
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Temp': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_temp'
+[2023-05-21 19:34:31Z INFO ExecutionContext] Write event payload to C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_temp\_github_workflow\event.json
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Temp': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_temp'
+[2023-05-21 19:34:31Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "akosparenko/github_actions_rtu"
+}
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2023-05-21 19:34:31Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2023-05-21 19:34:31Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command error
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command group
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-05-21 19:34:31Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:31Z INFO HostContext] Well known directory 'Externals': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\externals'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\externals\node16\bin\node.exe'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions\actions\checkout\v3\dist/index.js"'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\github_actions_rtu\github_actions_rtu'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-05-21 19:34:31Z INFO ProcessInvokerWrapper] Process started with process id 19540, waiting for process exit.
+[2023-05-21 19:34:31Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3e27820e-1c68-4079-98e3-8f4aa3b91667', success rate: 1/1.
+[2023-05-21 19:34:31Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-05-21 19:34:31Z INFO AddMaskCommandExtension] Add new secret mask with length of 76
+[2023-05-21 19:34:31Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-05-21 19:34:31Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-05-21 19:34:31Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper] Finished process 19540 with exit code 1, and elapsed time 00:00:01.1121783.
+[2023-05-21 19:34:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-05-21 19:34:32Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_temp\_runner_file_commands\step_summary_53060c38-dab1-49f1-bad4-b86a0a2161c8) is empty; skipping attachment upload
+[2023-05-21 19:34:32Z INFO StepsRunner] Step result: Failed
+[2023-05-21 19:34:32Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node16",
+  "stage": "Main",
+  "stepId": "a60052d4-79a0-5821-3eeb-84adb9872c5b",
+  "stepContextName": "__actions_checkout",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "failed",
+  "errorMessages": [
+    "No url found for submodule path 'actions-runner/_work/github_actions_rtu/github_actions_rtu' in .gitmodules",
+    "The process 'C:\\Program Files\\Git\\cmd\\git.exe' failed with exit code 128"
+  ],
+  "executionTimeInSeconds": 2,
+  "startTime": "2023-05-21T19:34:31.039714Z",
+  "finishTime": "2023-05-21T19:34:32.2520751Z"
+}.
+[2023-05-21 19:34:32Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2023-05-21 19:34:32Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-05-21 19:34:32Z INFO StepsRunner] Processing step: DisplayName='Run a one-line script'
+[2023-05-21 19:34:32Z INFO StepsRunner] Evaluating: success()
+[2023-05-21 19:34:32Z INFO StepsRunner] Result: false
+[2023-05-21 19:34:32Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2023-05-21 19:34:32Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2023-05-21 19:34:32Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-05-21 19:34:32Z INFO StepsRunner] Processing step: DisplayName='Run a multi-line script'
+[2023-05-21 19:34:32Z INFO StepsRunner] Evaluating: success()
+[2023-05-21 19:34:32Z INFO StepsRunner] Result: false
+[2023-05-21 19:34:32Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2023-05-21 19:34:32Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2023-05-21 19:34:32Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-05-21 19:34:32Z INFO StepsRunner] Processing step: DisplayName='Post Run actions/checkout@v3'
+[2023-05-21 19:34:32Z INFO StepsRunner] Evaluating: always()
+[2023-05-21 19:34:32Z INFO StepsRunner] Result: true
+[2023-05-21 19:34:32Z INFO StepsRunner] Starting the step.
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:32Z INFO StepsRunner] Which: 'chcp'
+[2023-05-21 19:34:32Z INFO StepsRunner] Location: 'C:\Windows\system32\chcp.COM'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\system32\chcp.COM'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper] Process started with process id 3016, waiting for process exit.
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper] Finished process 3016 with exit code 0, and elapsed time 00:00:00.0115626.
+[2023-05-21 19:34:32Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:32Z INFO ActionManager] Load action that reference repository from 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions\actions\checkout\v3'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Actions': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions'
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-05-21 19:34:32Z INFO ActionManager] Action pre node.js file: N/A.
+[2023-05-21 19:34:32Z INFO ActionManager] Action node.js file: dist/index.js.
+[2023-05-21 19:34:32Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Temp': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_temp'
+[2023-05-21 19:34:32Z INFO ExecutionContext] Write event payload to C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_temp\_github_workflow\event.json
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Work': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Temp': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_temp'
+[2023-05-21 19:34:32Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "akosparenko/github_actions_rtu"
+}
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2023-05-21 19:34:32Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2023-05-21 19:34:32Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command error
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command group
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-05-21 19:34:32Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:32Z INFO HostContext] Well known directory 'Externals': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\externals'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\externals\node16\bin\node.exe'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_actions\actions\checkout\v3\dist/index.js"'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\github_actions_rtu\github_actions_rtu'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-05-21 19:34:32Z INFO ProcessInvokerWrapper] Process started with process id 14820, waiting for process exit.
+[2023-05-21 19:34:32Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2023-05-21 19:34:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record '98bcc7bd-cc0a-4039-bc82-275786380bbd', success rate: 1/1.
+[2023-05-21 19:34:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record '98bcc7bd-cc0a-4039-bc82-275786380bbd', success rate: 1/1.
+[2023-05-21 19:34:33Z INFO JobServerQueue] Try to append 1 batches web console lines for record '98bcc7bd-cc0a-4039-bc82-275786380bbd', success rate: 1/1.
+[2023-05-21 19:34:33Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 19:34:33Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 19:34:33Z INFO ProcessInvokerWrapper] Finished process 14820 with exit code 0, and elapsed time 00:00:00.7601292.
+[2023-05-21 19:34:33Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_temp\_runner_file_commands\step_summary_b19365be-fa9f-4def-bd9a-f7570be9dc90) is empty; skipping attachment upload
+[2023-05-21 19:34:33Z INFO StepsRunner] Step result: 
+[2023-05-21 19:34:33Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node16",
+  "stage": "Post",
+  "stepId": "98bcc7bd-cc0a-4039-bc82-275786380bbd",
+  "result": "succeeded",
+  "errorMessages": [
+    "The process 'C:\\Program Files\\Git\\cmd\\git.exe' failed with exit code 128"
+  ],
+  "executionTimeInSeconds": 1,
+  "startTime": "2023-05-21T19:34:32.254225Z",
+  "finishTime": "2023-05-21T19:34:33.0392384Z"
+}.
+[2023-05-21 19:34:33Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2023-05-21 19:34:33Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-05-21 19:34:33Z INFO JobRunner] Finalize job.
+[2023-05-21 19:34:33Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:33Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:33Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:33Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:33Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:33Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:33Z INFO JobExtension] Initialize Env context
+[2023-05-21 19:34:33Z INFO JobExtension] Initialize steps context
+[2023-05-21 19:34:33Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-05-21 19:34:33Z INFO JobExtension] Total accessible running process: 312.
+[2023-05-21 19:34:33Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "1da45b8b-cd3f-4356-8307-99660fd0df35",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2023-05-21T19:34:33.0534855Z",
+  "finishTime": "2023-05-21T19:34:33.0597941Z"
+}.
+[2023-05-21 19:34:33Z INFO JobRunner] Job result after all job steps finish: Failed
+[2023-05-21 19:34:33Z INFO JobRunner] Completing the job execution context.
+[2023-05-21 19:34:33Z INFO JobRunner] Shutting down the job server queue.
+[2023-05-21 19:34:33Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2023-05-21 19:34:34Z INFO JobServerQueue] All queue process task stopped.
+[2023-05-21 19:34:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record '98bcc7bd-cc0a-4039-bc82-275786380bbd', success rate: 1/1.
+[2023-05-21 19:34:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record '1da45b8b-cd3f-4356-8307-99660fd0df35', success rate: 1/1.
+[2023-05-21 19:34:34Z INFO JobServerQueue] Web console line queue drained.
+[2023-05-21 19:34:34Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2023-05-21 19:34:35Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2023-05-21 19:34:35Z INFO JobServerQueue] File upload queue drained.
+[2023-05-21 19:34:35Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-05-21 19:34:35Z INFO JobServerQueue] Results upload queue drained.
+[2023-05-21 19:34:35Z INFO JobServerQueue] Timeline update queue drained.
+[2023-05-21 19:34:35Z INFO JobServerQueue] Disposing job server ...
+[2023-05-21 19:34:35Z INFO JobServerQueue] Disposing results server ...
+[2023-05-21 19:34:35Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2023-05-21 19:34:35Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_work\_temp
+[2023-05-21 19:34:35Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 19:34:35Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 19:34:35Z INFO HostContext] Well known directory 'Diag': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag'
+[2023-05-21 19:34:35Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\_diag\.telemetry'
+[2023-05-21 19:34:35Z INFO JobRunner] Raising job completed event
+[2023-05-21 19:34:35Z INFO Worker] Job completed.

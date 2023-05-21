@@ -1,0 +1,3 @@
+[submodule "python-greetings"]
+	path = python-greetings
+	url = https://github.com/mtararujs/python-greetings.git

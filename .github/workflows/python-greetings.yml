@@ -22,7 +22,7 @@ jobs:
       - uses: ./.github/actions/build
       - uses: actions/checkout@v3.5.2
         with:
-          repository: 'akosparenko/5_pr_d'
+          repository: 'mtararujs/python-greetings'
           path: 'a'
           submodules: true
   deploy-to-dev:
