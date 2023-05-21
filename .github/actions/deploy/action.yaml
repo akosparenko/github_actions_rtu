@@ -21,6 +21,6 @@ runs:
 #      continue-on-error: true
 #      run:  pm2 delete greetings-app-${{ inputs.environment }}; if ($LASTEXITCODE -eq 100) { $true }
     - name: Start service
-      shell: powershell
+#      shell: powershell
       working-directory: tests
       run: pm2 start app.py --name greetings-app-${{ inputs.environmSSSent }} -- ${{ inputs.port }}
