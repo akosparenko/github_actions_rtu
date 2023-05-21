@@ -20,11 +20,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3.5.2
       - uses: ./.github/actions/build
+      - uses: actions/checkout@v3.5.2
+        with:
+          repository: 'mtararujs/python-greetings'
+          path: 'tests'
+          submodules: true
   deploy-to-dev:
     runs-on: self-hosted
     steps:
       - run: echo Deploying to DEV...
-    needs: [install-pip-deps]
+    needs: [ install-pip-deps ]
   tests-on-dev:
     runs-on: self-hosted
     steps:

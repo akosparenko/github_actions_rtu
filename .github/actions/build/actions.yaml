@@ -2,11 +2,6 @@ runs:
   using: "composite"
   steps:
     - uses: actions/checkout@v3.5.2
-    - uses: actions/checkout@v3.5.2
-      with:
-        repository: 'mtararujs/python-greetings'
-        path: 'tests'
-        submodules: true
     - name: echo Install de
       working-directory: tests
       run: pip3 install -r requirements.txt
