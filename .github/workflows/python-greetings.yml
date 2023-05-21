@@ -53,6 +53,8 @@ jobs:
           repository: 'mtararujs/course-js-api-framework'
           path: 'tests'
       - uses: ./.github/actions/test
+        with:
+          environment: 'dev'
     needs: [ deploy-to-dev ]
   deploy-to-staging:
     runs-on: self-hosted
@@ -77,6 +79,8 @@ jobs:
           repository: 'mtararujs/course-js-api-framework'
           path: 'tests'
       - uses: ./.github/actions/test
+        with:
+          environment: 'staging'
     needs: [ deploy-to-staging ]
   deploy-to-preprod:
     runs-on: self-hosted
@@ -101,6 +105,8 @@ jobs:
           repository: 'mtararujs/course-js-api-framework'
           path: 'tests'
       - uses: ./.github/actions/test
+        with:
+          environment: 'preprod'
     needs: [ deploy-to-preprod ]
   deploy-to-prod:
     runs-on: self-hosted
@@ -125,4 +131,6 @@ jobs:
           repository: 'mtararujs/course-js-api-framework'
           path: 'tests'
       - uses: ./.github/actions/test
+        with:
+          environment: 'prod'
     needs: [ deploy-to-prod ]
