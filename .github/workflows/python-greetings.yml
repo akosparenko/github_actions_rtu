@@ -19,8 +19,10 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3.5.2
+      - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/python-greetings'
+          path: 'tests'
       - run: echo Install Python dependencies!
   deploy-to-dev:
     runs-on: self-hosted
@@ -30,6 +32,11 @@ jobs:
   tests-on-dev:
     runs-on: self-hosted
     steps:
+      - uses: actions/checkout@v3.5.2
+      - uses: actions/checkout@v3.5.2
+        with:
+          repository: 'mtararujs/python-greetings'
+          path: 'tests'
       - run: echo Running tests on DEV...
     needs: [ deploy-to-dev ]
   deploy-to-staging:
@@ -40,6 +47,11 @@ jobs:
   tests-on-staging:
     runs-on: self-hosted
     steps:
+      - uses: actions/checkout@v3.5.2
+      - uses: actions/checkout@v3.5.2
+        with:
+          repository: 'mtararujs/python-greetings'
+          path: 'tests'
       - run: echo Running tests on STAGING
     needs: [ deploy-to-staging ]
   deploy-to-preprod:
@@ -50,6 +62,9 @@ jobs:
   tests-on-preprod:
     runs-on: self-hosted
     steps:
+      - uses: actions/checkout@v3.5.2
+        with:
+          repository: 'mtararujs/python-greetings'
       - run: echo Running tests on PRE_PROD
     needs: [ deploy-to-preprod ]
   deploy-to-prod:
@@ -60,6 +75,9 @@ jobs:
   Tests-on-prod:
     runs-on: self-hosted
     steps:
+      - uses: actions/checkout@v3.5.2
+        with:
+          repository: 'mtararujs/python-greetings'
       - run: echo Running tests on PROD
     needs: [ deploy-to-prod ]
 
