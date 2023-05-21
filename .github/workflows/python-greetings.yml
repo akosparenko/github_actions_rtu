@@ -25,7 +25,7 @@ jobs:
         with:
           repository: 'mtararujs/python-greetings'
           path: 'a'
-          submodules: false
+          submodules: recursive
   deploy-to-dev:
     runs-on: self-hosted
     steps:
