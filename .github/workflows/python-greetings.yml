@@ -18,47 +18,47 @@ jobs:
   install-pip-deps:
     runs-on: self-hosted
     steps:
-      run: echo Install Python dependencies!
+      - run: echo Install Python dependencies!
   deploy-to-dev:
     runs-on: self-hosted
     steps:
-      run: echo Deploying to DEV...
+      - run: echo Deploying to DEV...
     needs: install-pip-deps
   tests-on-dev:
     runs-on: self-hosted
     steps:
-      run: echo Running tests on DEV...
+      - run: echo Running tests on DEV...
     needs: [ install-pip-deps,deploy-to-dev ]
   deploy-to-staging:
     runs-on: self-hosted
     steps:
-      run: echo Deploying to STAGING
+      - run: echo Deploying to STAGING
     needs: [ install-pip-deps,deploy-to-dev, tests-on-dev ]
   tests-on-staging:
     runs-on: self-hosted
     steps:
-      run: echo Running tests on STAGING
+      - run: echo Running tests on STAGING
     needs: [ install-pip-deps,deploy-to-dev, tests-on-dev,deploy-to-staging ]
   deploy-to-preprod:
     runs-on: self-hosted
     steps:
-      run: echo Deploying on PRE_PROD
+      - run: echo Deploying on PRE_PROD
     needs: [ install-pip-deps,deploy-to-dev, tests-on-dev,deploy-to-staging,tests-on-staging ]
   tests-on-preprod:
     runs-on: self-hosted
     steps:
-      run: echo Running tests on PRE_PROD
+      - run: echo Running tests on PRE_PROD
     needs: [ install-pip-deps,deploy-to-dev, tests-on-dev,deploy-to-staging,tests-on-staging,deploy-to-preprod ]
   deploy-to-prod:
     runs-on: self-hosted
     steps:
-      run: echo Deploying to PROD
+      - run: echo Deploying to PROD
     needs: [ install-pip-deps,deploy-to-dev, tests-on-dev,deploy-to-staging,tests-on-staging,deploy-to-preprod,
              tests-on-preprod ]
   Tests-on-prod:
     runs-on: self-hosted
     steps:
-      run: echo Running tests on PROD
+      - run: echo Running tests on PROD
     needs: [ install-pip-deps,deploy-to-dev, tests-on-dev,deploy-to-staging,tests-on-staging,deploy-to-preprod,
              tests-on-preprod,deploy-to-prod ]
 
