@@ -1,0 +1,21 @@
+inputs:
+  port:
+    description: 'Specify port for node application to run'
+    default: 1010
+  environment:
+    description: 'Environment for sample node application'
+    default: 'DEV'
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/checkout@v3.5.2
+    - name: Print output
+      run: echo Deployment to ${{ inputs.environment }} has started..
+    - name: echo Install de
+      working-directory: tests
+      run: pip install -r requirements.txt
+      shell: powershell
+    - name: Delete service
+      run: pm2 delete "books-${{ inputs.environment }}"
+    - name: Delete service
+      run: pm2 start -n "books-${{ inputs.environment }}" index.js -- ${{ inputs.port }}
