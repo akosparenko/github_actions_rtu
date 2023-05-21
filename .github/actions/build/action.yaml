@@ -4,3 +4,4 @@ runs:
     - name: echo Install de
       working-directory: tests
       run: pip3 install -r requirements.txt
+      shell: bash
