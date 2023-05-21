@@ -10,6 +10,7 @@ runs:
   steps:
     - name: Print output
       run: echo Deployment to ${{ inputs.environment }} has started..
+      shell: powershell
     - name: echo Install de
       working-directory: tests
       run: pip install -r requirements.txt
