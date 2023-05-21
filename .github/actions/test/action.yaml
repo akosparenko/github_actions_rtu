@@ -10,7 +10,9 @@ runs:
       run: echo Running tests on ${{ inputs.environment }}..
     - name: Install dependencies
       shell: powershell
+      working-directory: tests
       run: npm install
     - name: Execute REST API integration tests
       shell: powershell
+      working-directory: tests
       run:  npm run greetings greetings_${{ inputs.environment }}
