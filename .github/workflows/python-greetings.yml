@@ -39,7 +39,7 @@ jobs:
           clean: false
       - uses: ./.github/actions/deploy
         with:
-          environment: 'DEV'
+          environment: 'dev'
           port: 7001
     needs: [ install-pip-deps ]
   tests-on-dev:
