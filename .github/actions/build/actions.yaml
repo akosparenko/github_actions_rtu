@@ -1,0 +1,10 @@
+steps:
+  - uses: actions/checkout@v3.5.2
+  - uses: actions/checkout@v3.5.2
+    with:
+      repository: 'mtararujs/python-greetings'
+      path: 'tests'
+      url: 'https://github.com/mtararujs/python-greetings.git'
+  - name: echo Install de
+    working-directory: tests
+    run: pip3 install -r requirements.txt

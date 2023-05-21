@@ -1,0 +1,476 @@
+[2023-05-21 18:55:15Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 18:55:15Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials'
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 18:55:15Z INFO HostContext] Well known config file 'Runner': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.runner'
+[2023-05-21 18:55:15Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2023-05-21 18:55:15Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.22621.
+[2023-05-21 18:55:15Z INFO Listener] Version: 2.304.0
+[2023-05-21 18:55:15Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-05-21 18:55:15Z INFO Listener] Culture: en-US
+[2023-05-21 18:55:15Z INFO Listener] UI Culture: en-US
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 18:55:15Z INFO Listener] Validating directory permissions for: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 18:55:15Z INFO CommandLineParser] Parse
+[2023-05-21 18:55:15Z INFO CommandLineParser] Parsing 1 args
+[2023-05-21 18:55:15Z INFO CommandLineParser] parsing argument
+[2023-05-21 18:55:15Z INFO CommandLineParser] HasArgs: False
+[2023-05-21 18:55:15Z INFO CommandLineParser] Adding Command: run
+[2023-05-21 18:55:15Z INFO Listener] Arguments parsed
+[2023-05-21 18:55:15Z INFO Runner] ExecuteCommand
+[2023-05-21 18:55:15Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Listener.dll
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:15Z INFO ConfigurationStore] binPath: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 18:55:15Z INFO ConfigurationStore] RootFolder: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 18:55:15Z INFO HostContext] Well known config file 'Runner': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.runner'
+[2023-05-21 18:55:15Z INFO ConfigurationStore] ConfigFilePath: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.runner
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 18:55:15Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials'
+[2023-05-21 18:55:15Z INFO ConfigurationStore] CredFilePath: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 18:55:15Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_migrated'
+[2023-05-21 18:55:15Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_migrated
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 18:55:15Z INFO HostContext] Well known config file 'Service': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.service'
+[2023-05-21 18:55:15Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.service
+[2023-05-21 18:55:15Z INFO CommandSettings] Flag 'help': 'False'
+[2023-05-21 18:55:15Z INFO CommandSettings] Flag 'version': 'False'
+[2023-05-21 18:55:15Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-05-21 18:55:15Z INFO CommandSettings] Flag 'check': 'False'
+[2023-05-21 18:55:15Z INFO CommandSettings] Command 'configure': 'False'
+[2023-05-21 18:55:15Z INFO CommandSettings] Command 'remove': 'False'
+[2023-05-21 18:55:15Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-05-21 18:55:15Z INFO ConfigurationManager] LoadSettings
+[2023-05-21 18:55:15Z INFO ConfigurationStore] IsConfigured()
+[2023-05-21 18:55:15Z INFO ConfigurationStore] IsConfigured: True
+[2023-05-21 18:55:15Z INFO ConfigurationManager] Is configured: True
+[2023-05-21 18:55:15Z INFO ConfigurationStore] Read setting file: 311 chars
+[2023-05-21 18:55:15Z INFO ConfigurationManager] Settings Loaded
+[2023-05-21 18:55:15Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-05-21 18:55:15Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-05-21 18:55:15Z INFO CommandSettings] Command 'run': 'True'
+[2023-05-21 18:55:15Z INFO ConfigurationStore] IsConfigured()
+[2023-05-21 18:55:15Z INFO ConfigurationStore] IsConfigured: True
+[2023-05-21 18:55:15Z INFO ConfigurationManager] Is configured: True
+[2023-05-21 18:55:15Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-05-21 18:55:15Z INFO Runner] Set runner startup type - Manual
+[2023-05-21 18:55:15Z INFO CommandSettings] Flag 'once': 'False'
+[2023-05-21 18:55:15Z INFO CommandSettings] Flag 'once': 'False'
+[2023-05-21 18:55:15Z INFO Runner] RunAsync
+[2023-05-21 18:55:15Z INFO ConfigurationManager] LoadSettings
+[2023-05-21 18:55:15Z INFO ConfigurationStore] IsConfigured()
+[2023-05-21 18:55:15Z INFO ConfigurationStore] IsConfigured: True
+[2023-05-21 18:55:15Z INFO ConfigurationManager] Is configured: True
+[2023-05-21 18:55:15Z INFO ConfigurationManager] Settings Loaded
+[2023-05-21 18:55:15Z INFO MessageListener] {
+  "AgentId": 23,
+  "AgentName": "DESKTOP-O7SHKV4",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/W4n4zUjpBHuGRnBhnhtYmaBcgYxIrrMLzUa02muoSI4xAWJCYG",
+  "GitHubUrl": "https://github.com/akosparenko/github_actions_rtu",
+  "WorkFolder": "_work"
+}
+[2023-05-21 18:55:15Z INFO MessageListener] Loading Credentials
+[2023-05-21 18:55:15Z INFO ConfigurationStore] HasCredentials()
+[2023-05-21 18:55:15Z INFO ConfigurationStore] stored True
+[2023-05-21 18:55:15Z INFO CredentialManager] GetCredentialProvider
+[2023-05-21 18:55:15Z INFO CredentialManager] Creating type OAuth
+[2023-05-21 18:55:15Z INFO CredentialManager] Creating credential type: OAuth
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner'
+[2023-05-21 18:55:15Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams'
+[2023-05-21 18:55:15Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:55:15Z INFO MessageListener] Attempt to create session.
+[2023-05-21 18:55:15Z INFO MessageListener] Connecting to the Runner Server...
+[2023-05-21 18:55:15Z INFO RunnerServer] EstablishVssConnection
+[2023-05-21 18:55:15Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-05-21 18:55:15Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-05-21 18:55:15Z INFO RunnerServer] EstablishVssConnection
+[2023-05-21 18:55:15Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-05-21 18:55:15Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-05-21 18:55:15Z INFO RunnerServer] EstablishVssConnection
+[2023-05-21 18:55:15Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-05-21 18:55:15Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-05-21 18:55:16Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-05-21 18:55:16Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-05-21 18:55:16Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-05-21 18:55:16Z INFO MessageListener] VssConnection created
+[2023-05-21 18:55:16Z INFO Terminal] WRITE LINE: 
+[2023-05-21 18:55:16Z INFO Terminal] WRITE LINE: 
+[2023-05-21 18:55:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:55:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:55:16Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-05-21 18:55:16Z INFO MessageListener] Session created.
+[2023-05-21 18:55:16Z INFO Terminal] WRITE LINE: Current runner version: '2.304.0'
+[2023-05-21 18:55:16Z INFO Terminal] WRITE LINE: 2023-05-21 18:55:16Z: Listening for Jobs
+[2023-05-21 18:55:16Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-05-21 18:55:19Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:55:19Z INFO MessageListener] Message '1' received from session 'c81b9e9c-c5b0-41e8-9f36-e0bcc0fea7f8'.
+[2023-05-21 18:55:19Z INFO Runner] Received job message of length 21238 from service, with hash '502c6873952fa1b476c2b05f96a6b5108c23dbe0721ed0f5392d09cc27367589'
+[2023-05-21 18:55:20Z INFO JobDispatcher] Job request 35 for plan 2125048c-9957-4acf-a638-c033bce8a36d job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2023-05-21 18:55:20Z INFO JobDispatcher] Pull OrchestrationId 2125048c-9957-4acf-a638-c033bce8a36d.build.__default from JWT claims
+[2023-05-21 18:55:20Z INFO Terminal] WRITE LINE: 2023-05-21 18:55:20Z: Running job: build
+[2023-05-21 18:55:20Z INFO JobDispatcher] Start renew job request 35 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2023-05-21 18:55:20Z INFO JobDispatcher] Successfully renew job request 35, job is valid till 5/21/2023 7:05:21 PM
+[2023-05-21 18:55:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.exe'
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2252 2260'
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-05-21 18:55:20Z INFO ProcessInvokerWrapper] Process started with process id 20328, waiting for process exit.
+[2023-05-21 18:55:20Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2023-05-21 18:55:20Z INFO ProcessChannel] Sending message of length 21238, with hash '502c6873952fa1b476c2b05f96a6b5108c23dbe0721ed0f5392d09cc27367589'
+[2023-05-21 18:55:20Z INFO JobNotification] Entering JobStarted Notification
+[2023-05-21 18:55:20Z INFO JobNotification] Entering StartMonitor
+[2023-05-21 18:55:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:55:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:55:32Z INFO ProcessInvokerWrapper] Finished process 20328 with exit code 100, and elapsed time 00:00:12.1450025.
+[2023-05-21 18:55:32Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 100
+[2023-05-21 18:55:32Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Succeeded
+[2023-05-21 18:55:32Z INFO Terminal] WRITE LINE: 2023-05-21 18:55:32Z: Job build completed with result: Succeeded
+[2023-05-21 18:55:32Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2023-05-21 18:55:32Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 35.
+[2023-05-21 18:55:32Z INFO JobNotification] Entering JobCompleted Notification
+[2023-05-21 18:55:32Z INFO JobNotification] Entering EndMonitor
+[2023-05-21 18:55:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:55:34Z INFO MessageListener] Message '2' received from session 'c81b9e9c-c5b0-41e8-9f36-e0bcc0fea7f8'.
+[2023-05-21 18:55:34Z INFO Runner] Received job message of length 21623 from service, with hash '76d7b34c955a4bf946431b5a7f396b23bf47fb71b0e56dff9669a52983ebf004'
+[2023-05-21 18:55:34Z INFO JobDispatcher] Job request 36 for plan 2125048c-9957-4acf-a638-c033bce8a36d job 2c82587d-3b36-5b02-0dc9-8d9d2dc66fd6 received.
+[2023-05-21 18:55:34Z INFO JobDispatcher] Pull OrchestrationId 2125048c-9957-4acf-a638-c033bce8a36d.install-pip-deps.__default from JWT claims
+[2023-05-21 18:55:34Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2023-05-21 18:55:34Z INFO Terminal] WRITE LINE: 2023-05-21 18:55:34Z: Running job: install-pip-deps
+[2023-05-21 18:55:34Z INFO JobDispatcher] Start renew job request 36 for job 2c82587d-3b36-5b02-0dc9-8d9d2dc66fd6.
+[2023-05-21 18:55:35Z INFO JobDispatcher] Successfully renew job request 36, job is valid till 5/21/2023 7:05:35 PM
+[2023-05-21 18:55:35Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.exe'
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2276 2304'
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-05-21 18:55:35Z INFO ProcessInvokerWrapper] Process started with process id 14660, waiting for process exit.
+[2023-05-21 18:55:35Z INFO JobDispatcher] Send job request message to worker for job 2c82587d-3b36-5b02-0dc9-8d9d2dc66fd6.
+[2023-05-21 18:55:35Z INFO ProcessChannel] Sending message of length 21623, with hash '76d7b34c955a4bf946431b5a7f396b23bf47fb71b0e56dff9669a52983ebf004'
+[2023-05-21 18:55:35Z INFO JobNotification] Entering JobStarted Notification
+[2023-05-21 18:55:35Z INFO JobNotification] Entering StartMonitor
+[2023-05-21 18:55:50Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:55:50Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:55:50Z INFO ProcessInvokerWrapper] Finished process 14660 with exit code 100, and elapsed time 00:00:15.6219728.
+[2023-05-21 18:55:50Z INFO JobDispatcher] Worker finished for job 2c82587d-3b36-5b02-0dc9-8d9d2dc66fd6. Code: 100
+[2023-05-21 18:55:50Z INFO JobDispatcher] finish job request for job 2c82587d-3b36-5b02-0dc9-8d9d2dc66fd6 with result: Succeeded
+[2023-05-21 18:55:50Z INFO Terminal] WRITE LINE: 2023-05-21 18:55:50Z: Job install-pip-deps completed with result: Succeeded
+[2023-05-21 18:55:50Z INFO JobDispatcher] Stop renew job request for job 2c82587d-3b36-5b02-0dc9-8d9d2dc66fd6.
+[2023-05-21 18:55:50Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 36.
+[2023-05-21 18:55:50Z INFO JobNotification] Entering JobCompleted Notification
+[2023-05-21 18:55:50Z INFO JobNotification] Entering EndMonitor
+[2023-05-21 18:55:52Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:55:52Z INFO MessageListener] Message '3' received from session 'c81b9e9c-c5b0-41e8-9f36-e0bcc0fea7f8'.
+[2023-05-21 18:55:52Z INFO Runner] Received job message of length 20674 from service, with hash 'f5618658596ad07f2cb69e1f7a4d1a4651bc7ad6a4745f6c6f674c3c2696d1b8'
+[2023-05-21 18:55:52Z INFO JobDispatcher] Job request 37 for plan 2125048c-9957-4acf-a638-c033bce8a36d job 6e2e6d2e-3d07-5d27-f52a-c3c85fbb7c29 received.
+[2023-05-21 18:55:52Z INFO JobDispatcher] Pull OrchestrationId 2125048c-9957-4acf-a638-c033bce8a36d.deploy-to-dev.__default from JWT claims
+[2023-05-21 18:55:52Z INFO JobDispatcher] Job request 2c82587d-3b36-5b02-0dc9-8d9d2dc66fd6 processed succeed.
+[2023-05-21 18:55:52Z INFO Terminal] WRITE LINE: 2023-05-21 18:55:52Z: Running job: deploy-to-dev
+[2023-05-21 18:55:52Z INFO JobDispatcher] Start renew job request 37 for job 6e2e6d2e-3d07-5d27-f52a-c3c85fbb7c29.
+[2023-05-21 18:55:53Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 5/21/2023 7:05:53 PM
+[2023-05-21 18:55:53Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.exe'
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1852 2260'
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-05-21 18:55:53Z INFO ProcessInvokerWrapper] Process started with process id 19824, waiting for process exit.
+[2023-05-21 18:55:53Z INFO JobDispatcher] Send job request message to worker for job 6e2e6d2e-3d07-5d27-f52a-c3c85fbb7c29.
+[2023-05-21 18:55:53Z INFO ProcessChannel] Sending message of length 20674, with hash 'f5618658596ad07f2cb69e1f7a4d1a4651bc7ad6a4745f6c6f674c3c2696d1b8'
+[2023-05-21 18:55:53Z INFO JobNotification] Entering JobStarted Notification
+[2023-05-21 18:55:53Z INFO JobNotification] Entering StartMonitor
+[2023-05-21 18:55:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:55:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:55:57Z INFO ProcessInvokerWrapper] Finished process 19824 with exit code 100, and elapsed time 00:00:04.2016992.
+[2023-05-21 18:55:57Z INFO JobDispatcher] Worker finished for job 6e2e6d2e-3d07-5d27-f52a-c3c85fbb7c29. Code: 100
+[2023-05-21 18:55:57Z INFO JobDispatcher] finish job request for job 6e2e6d2e-3d07-5d27-f52a-c3c85fbb7c29 with result: Succeeded
+[2023-05-21 18:55:57Z INFO Terminal] WRITE LINE: 2023-05-21 18:55:57Z: Job deploy-to-dev completed with result: Succeeded
+[2023-05-21 18:55:57Z INFO JobDispatcher] Stop renew job request for job 6e2e6d2e-3d07-5d27-f52a-c3c85fbb7c29.
+[2023-05-21 18:55:57Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 37.
+[2023-05-21 18:55:57Z INFO JobNotification] Entering JobCompleted Notification
+[2023-05-21 18:55:57Z INFO JobNotification] Entering EndMonitor
+[2023-05-21 18:55:59Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:56:00Z INFO MessageListener] Message '4' received from session 'c81b9e9c-c5b0-41e8-9f36-e0bcc0fea7f8'.
+[2023-05-21 18:56:00Z INFO Runner] Received job message of length 21514 from service, with hash '4832d1160f0ac8b92c56f090b58b63cb5b73d86aac5c01b12e559d1af484fa34'
+[2023-05-21 18:56:00Z INFO JobDispatcher] Job request 38 for plan 2125048c-9957-4acf-a638-c033bce8a36d job ab1ca948-13d0-581f-827f-b5e85f04a398 received.
+[2023-05-21 18:56:00Z INFO JobDispatcher] Pull OrchestrationId 2125048c-9957-4acf-a638-c033bce8a36d.tests-on-dev.__default from JWT claims
+[2023-05-21 18:56:00Z INFO JobDispatcher] Job request 6e2e6d2e-3d07-5d27-f52a-c3c85fbb7c29 processed succeed.
+[2023-05-21 18:56:00Z INFO Terminal] WRITE LINE: 2023-05-21 18:56:00Z: Running job: tests-on-dev
+[2023-05-21 18:56:00Z INFO JobDispatcher] Start renew job request 38 for job ab1ca948-13d0-581f-827f-b5e85f04a398.
+[2023-05-21 18:56:00Z INFO JobDispatcher] Successfully renew job request 38, job is valid till 5/21/2023 7:06:00 PM
+[2023-05-21 18:56:00Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.exe'
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2388 2260'
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-05-21 18:56:00Z INFO ProcessInvokerWrapper] Process started with process id 15076, waiting for process exit.
+[2023-05-21 18:56:00Z INFO JobDispatcher] Send job request message to worker for job ab1ca948-13d0-581f-827f-b5e85f04a398.
+[2023-05-21 18:56:00Z INFO ProcessChannel] Sending message of length 21514, with hash '4832d1160f0ac8b92c56f090b58b63cb5b73d86aac5c01b12e559d1af484fa34'
+[2023-05-21 18:56:00Z INFO JobNotification] Entering JobStarted Notification
+[2023-05-21 18:56:00Z INFO JobNotification] Entering StartMonitor
+[2023-05-21 18:56:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:56:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:56:14Z INFO ProcessInvokerWrapper] Finished process 15076 with exit code 100, and elapsed time 00:00:14.6239512.
+[2023-05-21 18:56:14Z INFO JobDispatcher] Worker finished for job ab1ca948-13d0-581f-827f-b5e85f04a398. Code: 100
+[2023-05-21 18:56:14Z INFO JobDispatcher] finish job request for job ab1ca948-13d0-581f-827f-b5e85f04a398 with result: Succeeded
+[2023-05-21 18:56:14Z INFO Terminal] WRITE LINE: 2023-05-21 18:56:14Z: Job tests-on-dev completed with result: Succeeded
+[2023-05-21 18:56:14Z INFO JobDispatcher] Stop renew job request for job ab1ca948-13d0-581f-827f-b5e85f04a398.
+[2023-05-21 18:56:14Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 38.
+[2023-05-21 18:56:14Z INFO JobNotification] Entering JobCompleted Notification
+[2023-05-21 18:56:14Z INFO JobNotification] Entering EndMonitor
+[2023-05-21 18:56:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:56:16Z INFO MessageListener] Message '5' received from session 'c81b9e9c-c5b0-41e8-9f36-e0bcc0fea7f8'.
+[2023-05-21 18:56:16Z INFO Runner] Received job message of length 20714 from service, with hash 'afd25a7f36cbba37561f529cb555ab99a44b9009646f7b9ce9e09bf730411796'
+[2023-05-21 18:56:16Z INFO JobDispatcher] Job request 39 for plan 2125048c-9957-4acf-a638-c033bce8a36d job e76e805c-c5b4-5497-df08-887f4d6f9b83 received.
+[2023-05-21 18:56:16Z INFO JobDispatcher] Pull OrchestrationId 2125048c-9957-4acf-a638-c033bce8a36d.deploy-to-staging.__default from JWT claims
+[2023-05-21 18:56:16Z INFO JobDispatcher] Job request ab1ca948-13d0-581f-827f-b5e85f04a398 processed succeed.
+[2023-05-21 18:56:16Z INFO Terminal] WRITE LINE: 2023-05-21 18:56:16Z: Running job: deploy-to-staging
+[2023-05-21 18:56:16Z INFO JobDispatcher] Start renew job request 39 for job e76e805c-c5b4-5497-df08-887f4d6f9b83.
+[2023-05-21 18:56:17Z INFO JobDispatcher] Successfully renew job request 39, job is valid till 5/21/2023 7:06:17 PM
+[2023-05-21 18:56:17Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.exe'
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2288 2380'
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-05-21 18:56:17Z INFO ProcessInvokerWrapper] Process started with process id 16684, waiting for process exit.
+[2023-05-21 18:56:17Z INFO JobDispatcher] Send job request message to worker for job e76e805c-c5b4-5497-df08-887f4d6f9b83.
+[2023-05-21 18:56:17Z INFO ProcessChannel] Sending message of length 20714, with hash 'afd25a7f36cbba37561f529cb555ab99a44b9009646f7b9ce9e09bf730411796'
+[2023-05-21 18:56:17Z INFO JobNotification] Entering JobStarted Notification
+[2023-05-21 18:56:17Z INFO JobNotification] Entering StartMonitor
+[2023-05-21 18:56:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:56:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:56:21Z INFO ProcessInvokerWrapper] Finished process 16684 with exit code 100, and elapsed time 00:00:04.2438855.
+[2023-05-21 18:56:21Z INFO JobDispatcher] Worker finished for job e76e805c-c5b4-5497-df08-887f4d6f9b83. Code: 100
+[2023-05-21 18:56:21Z INFO JobDispatcher] finish job request for job e76e805c-c5b4-5497-df08-887f4d6f9b83 with result: Succeeded
+[2023-05-21 18:56:21Z INFO Terminal] WRITE LINE: 2023-05-21 18:56:21Z: Job deploy-to-staging completed with result: Succeeded
+[2023-05-21 18:56:21Z INFO JobDispatcher] Stop renew job request for job e76e805c-c5b4-5497-df08-887f4d6f9b83.
+[2023-05-21 18:56:21Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 39.
+[2023-05-21 18:56:21Z INFO JobNotification] Entering JobCompleted Notification
+[2023-05-21 18:56:21Z INFO JobNotification] Entering EndMonitor
+[2023-05-21 18:56:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:56:23Z INFO MessageListener] Message '6' received from session 'c81b9e9c-c5b0-41e8-9f36-e0bcc0fea7f8'.
+[2023-05-21 18:56:23Z INFO Runner] Received job message of length 21562 from service, with hash '37c92f512c96525d3a112162d32bd5bb6b1142b442efafad6f07a180eb9c6027'
+[2023-05-21 18:56:23Z INFO JobDispatcher] Job request 40 for plan 2125048c-9957-4acf-a638-c033bce8a36d job 4ca4aae3-aa9c-50af-1e99-69781d5ec806 received.
+[2023-05-21 18:56:23Z INFO JobDispatcher] Pull OrchestrationId 2125048c-9957-4acf-a638-c033bce8a36d.tests-on-staging.__default from JWT claims
+[2023-05-21 18:56:23Z INFO JobDispatcher] Job request e76e805c-c5b4-5497-df08-887f4d6f9b83 processed succeed.
+[2023-05-21 18:56:23Z INFO Terminal] WRITE LINE: 2023-05-21 18:56:23Z: Running job: tests-on-staging
+[2023-05-21 18:56:23Z INFO JobDispatcher] Start renew job request 40 for job 4ca4aae3-aa9c-50af-1e99-69781d5ec806.
+[2023-05-21 18:56:24Z INFO JobDispatcher] Successfully renew job request 40, job is valid till 5/21/2023 7:06:24 PM
+[2023-05-21 18:56:24Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.exe'
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2300 600'
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-05-21 18:56:24Z INFO ProcessInvokerWrapper] Process started with process id 17700, waiting for process exit.
+[2023-05-21 18:56:24Z INFO JobDispatcher] Send job request message to worker for job 4ca4aae3-aa9c-50af-1e99-69781d5ec806.
+[2023-05-21 18:56:24Z INFO ProcessChannel] Sending message of length 21562, with hash '37c92f512c96525d3a112162d32bd5bb6b1142b442efafad6f07a180eb9c6027'
+[2023-05-21 18:56:24Z INFO JobNotification] Entering JobStarted Notification
+[2023-05-21 18:56:24Z INFO JobNotification] Entering StartMonitor
+[2023-05-21 18:56:39Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:56:39Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:56:39Z INFO ProcessInvokerWrapper] Finished process 17700 with exit code 100, and elapsed time 00:00:14.9727068.
+[2023-05-21 18:56:39Z INFO JobDispatcher] Worker finished for job 4ca4aae3-aa9c-50af-1e99-69781d5ec806. Code: 100
+[2023-05-21 18:56:39Z INFO JobDispatcher] finish job request for job 4ca4aae3-aa9c-50af-1e99-69781d5ec806 with result: Succeeded
+[2023-05-21 18:56:39Z INFO Terminal] WRITE LINE: 2023-05-21 18:56:39Z: Job tests-on-staging completed with result: Succeeded
+[2023-05-21 18:56:39Z INFO JobDispatcher] Stop renew job request for job 4ca4aae3-aa9c-50af-1e99-69781d5ec806.
+[2023-05-21 18:56:39Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 40.
+[2023-05-21 18:56:39Z INFO JobNotification] Entering JobCompleted Notification
+[2023-05-21 18:56:39Z INFO JobNotification] Entering EndMonitor
+[2023-05-21 18:56:41Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:56:41Z INFO MessageListener] Message '7' received from session 'c81b9e9c-c5b0-41e8-9f36-e0bcc0fea7f8'.
+[2023-05-21 18:56:41Z INFO Runner] Received job message of length 20719 from service, with hash '0a372f4c7d2cb8ef5f462b5d2b9ea869a471dd9cf53a698428a4406bb9556a5f'
+[2023-05-21 18:56:41Z INFO JobDispatcher] Job request 41 for plan 2125048c-9957-4acf-a638-c033bce8a36d job fd864364-12e5-52c9-f8b9-796cd2ae720b received.
+[2023-05-21 18:56:41Z INFO JobDispatcher] Pull OrchestrationId 2125048c-9957-4acf-a638-c033bce8a36d.deploy-to-preprod.__default from JWT claims
+[2023-05-21 18:56:41Z INFO JobDispatcher] Job request 4ca4aae3-aa9c-50af-1e99-69781d5ec806 processed succeed.
+[2023-05-21 18:56:41Z INFO Terminal] WRITE LINE: 2023-05-21 18:56:41Z: Running job: deploy-to-preprod
+[2023-05-21 18:56:41Z INFO JobDispatcher] Start renew job request 41 for job fd864364-12e5-52c9-f8b9-796cd2ae720b.
+[2023-05-21 18:56:42Z INFO JobDispatcher] Successfully renew job request 41, job is valid till 5/21/2023 7:06:42 PM
+[2023-05-21 18:56:42Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.exe'
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2292 1316'
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-05-21 18:56:42Z INFO ProcessInvokerWrapper] Process started with process id 19524, waiting for process exit.
+[2023-05-21 18:56:42Z INFO JobDispatcher] Send job request message to worker for job fd864364-12e5-52c9-f8b9-796cd2ae720b.
+[2023-05-21 18:56:42Z INFO ProcessChannel] Sending message of length 20719, with hash '0a372f4c7d2cb8ef5f462b5d2b9ea869a471dd9cf53a698428a4406bb9556a5f'
+[2023-05-21 18:56:42Z INFO JobNotification] Entering JobStarted Notification
+[2023-05-21 18:56:42Z INFO JobNotification] Entering StartMonitor
+[2023-05-21 18:56:45Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:56:45Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:56:45Z INFO ProcessInvokerWrapper] Finished process 19524 with exit code 100, and elapsed time 00:00:03.9031418.
+[2023-05-21 18:56:45Z INFO JobDispatcher] Worker finished for job fd864364-12e5-52c9-f8b9-796cd2ae720b. Code: 100
+[2023-05-21 18:56:45Z INFO JobDispatcher] finish job request for job fd864364-12e5-52c9-f8b9-796cd2ae720b with result: Succeeded
+[2023-05-21 18:56:45Z INFO Terminal] WRITE LINE: 2023-05-21 18:56:45Z: Job deploy-to-preprod completed with result: Succeeded
+[2023-05-21 18:56:45Z INFO JobDispatcher] Stop renew job request for job fd864364-12e5-52c9-f8b9-796cd2ae720b.
+[2023-05-21 18:56:45Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 41.
+[2023-05-21 18:56:45Z INFO JobNotification] Entering JobCompleted Notification
+[2023-05-21 18:56:45Z INFO JobNotification] Entering EndMonitor
+[2023-05-21 18:56:48Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:56:48Z INFO MessageListener] Message '8' received from session 'c81b9e9c-c5b0-41e8-9f36-e0bcc0fea7f8'.
+[2023-05-21 18:56:48Z INFO Runner] Received job message of length 21178 from service, with hash '6a66855d159506c278b6ab3811c5bac7486b0d6580dd1a9ea01e1b571423c532'
+[2023-05-21 18:56:48Z INFO JobDispatcher] Job request 42 for plan 2125048c-9957-4acf-a638-c033bce8a36d job 19e96bf5-5d87-5b8f-326d-82d23ac62b23 received.
+[2023-05-21 18:56:48Z INFO JobDispatcher] Pull OrchestrationId 2125048c-9957-4acf-a638-c033bce8a36d.tests-on-preprod.__default from JWT claims
+[2023-05-21 18:56:48Z INFO JobDispatcher] Job request fd864364-12e5-52c9-f8b9-796cd2ae720b processed succeed.
+[2023-05-21 18:56:48Z INFO Terminal] WRITE LINE: 2023-05-21 18:56:48Z: Running job: tests-on-preprod
+[2023-05-21 18:56:48Z INFO JobDispatcher] Start renew job request 42 for job 19e96bf5-5d87-5b8f-326d-82d23ac62b23.
+[2023-05-21 18:56:49Z INFO JobDispatcher] Successfully renew job request 42, job is valid till 5/21/2023 7:06:49 PM
+[2023-05-21 18:56:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.exe'
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2304 604'
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-05-21 18:56:49Z INFO ProcessInvokerWrapper] Process started with process id 10016, waiting for process exit.
+[2023-05-21 18:56:49Z INFO JobDispatcher] Send job request message to worker for job 19e96bf5-5d87-5b8f-326d-82d23ac62b23.
+[2023-05-21 18:56:49Z INFO ProcessChannel] Sending message of length 21178, with hash '6a66855d159506c278b6ab3811c5bac7486b0d6580dd1a9ea01e1b571423c532'
+[2023-05-21 18:56:49Z INFO JobNotification] Entering JobStarted Notification
+[2023-05-21 18:56:49Z INFO JobNotification] Entering StartMonitor
+[2023-05-21 18:56:59Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:56:59Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:56:59Z INFO ProcessInvokerWrapper] Finished process 10016 with exit code 100, and elapsed time 00:00:10.3502128.
+[2023-05-21 18:56:59Z INFO JobDispatcher] Worker finished for job 19e96bf5-5d87-5b8f-326d-82d23ac62b23. Code: 100
+[2023-05-21 18:56:59Z INFO JobDispatcher] finish job request for job 19e96bf5-5d87-5b8f-326d-82d23ac62b23 with result: Succeeded
+[2023-05-21 18:56:59Z INFO Terminal] WRITE LINE: 2023-05-21 18:56:59Z: Job tests-on-preprod completed with result: Succeeded
+[2023-05-21 18:56:59Z INFO JobDispatcher] Stop renew job request for job 19e96bf5-5d87-5b8f-326d-82d23ac62b23.
+[2023-05-21 18:56:59Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 42.
+[2023-05-21 18:56:59Z INFO JobNotification] Entering JobCompleted Notification
+[2023-05-21 18:56:59Z INFO JobNotification] Entering EndMonitor
+[2023-05-21 18:57:01Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:57:01Z INFO MessageListener] Message '9' received from session 'c81b9e9c-c5b0-41e8-9f36-e0bcc0fea7f8'.
+[2023-05-21 18:57:01Z INFO Runner] Received job message of length 20682 from service, with hash 'f20f4f0259fcabfe9e2fc0f72886831e72d5c3d143c292e11cf055fd57fdbc99'
+[2023-05-21 18:57:01Z INFO JobDispatcher] Job request 43 for plan 2125048c-9957-4acf-a638-c033bce8a36d job 8c19ac14-2dac-5788-a5d5-7bdea808bc2f received.
+[2023-05-21 18:57:01Z INFO JobDispatcher] Pull OrchestrationId 2125048c-9957-4acf-a638-c033bce8a36d.deploy-to-prod.__default from JWT claims
+[2023-05-21 18:57:01Z INFO JobDispatcher] Job request 19e96bf5-5d87-5b8f-326d-82d23ac62b23 processed succeed.
+[2023-05-21 18:57:01Z INFO Terminal] WRITE LINE: 2023-05-21 18:57:01Z: Running job: deploy-to-prod
+[2023-05-21 18:57:01Z INFO JobDispatcher] Start renew job request 43 for job 8c19ac14-2dac-5788-a5d5-7bdea808bc2f.
+[2023-05-21 18:57:02Z INFO JobDispatcher] Successfully renew job request 43, job is valid till 5/21/2023 7:07:02 PM
+[2023-05-21 18:57:02Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.exe'
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2320 2460'
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-05-21 18:57:02Z INFO ProcessInvokerWrapper] Process started with process id 20960, waiting for process exit.
+[2023-05-21 18:57:02Z INFO JobDispatcher] Send job request message to worker for job 8c19ac14-2dac-5788-a5d5-7bdea808bc2f.
+[2023-05-21 18:57:02Z INFO ProcessChannel] Sending message of length 20682, with hash 'f20f4f0259fcabfe9e2fc0f72886831e72d5c3d143c292e11cf055fd57fdbc99'
+[2023-05-21 18:57:02Z INFO JobNotification] Entering JobStarted Notification
+[2023-05-21 18:57:02Z INFO JobNotification] Entering StartMonitor
+[2023-05-21 18:57:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:57:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:57:06Z INFO ProcessInvokerWrapper] Finished process 20960 with exit code 100, and elapsed time 00:00:03.9262531.
+[2023-05-21 18:57:06Z INFO JobDispatcher] Worker finished for job 8c19ac14-2dac-5788-a5d5-7bdea808bc2f. Code: 100
+[2023-05-21 18:57:06Z INFO JobDispatcher] finish job request for job 8c19ac14-2dac-5788-a5d5-7bdea808bc2f with result: Succeeded
+[2023-05-21 18:57:06Z INFO Terminal] WRITE LINE: 2023-05-21 18:57:06Z: Job deploy-to-prod completed with result: Succeeded
+[2023-05-21 18:57:06Z INFO JobDispatcher] Stop renew job request for job 8c19ac14-2dac-5788-a5d5-7bdea808bc2f.
+[2023-05-21 18:57:06Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 43.
+[2023-05-21 18:57:06Z INFO JobNotification] Entering JobCompleted Notification
+[2023-05-21 18:57:06Z INFO JobNotification] Entering EndMonitor
+[2023-05-21 18:57:08Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\.credentials_rsaparams
+[2023-05-21 18:57:08Z INFO MessageListener] Message '10' received from session 'c81b9e9c-c5b0-41e8-9f36-e0bcc0fea7f8'.
+[2023-05-21 18:57:08Z INFO Runner] Received job message of length 21138 from service, with hash '18892f4536922e03368b664184c9218382e2f892fc042544448e76093c78c032'
+[2023-05-21 18:57:08Z INFO JobDispatcher] Job request 44 for plan 2125048c-9957-4acf-a638-c033bce8a36d job 477bd9cf-27fc-50c5-7e80-9efe101a6f00 received.
+[2023-05-21 18:57:08Z INFO JobDispatcher] Pull OrchestrationId 2125048c-9957-4acf-a638-c033bce8a36d.tests-on-prod.__default from JWT claims
+[2023-05-21 18:57:08Z INFO JobDispatcher] Job request 8c19ac14-2dac-5788-a5d5-7bdea808bc2f processed succeed.
+[2023-05-21 18:57:08Z INFO Terminal] WRITE LINE: 2023-05-21 18:57:08Z: Running job: Tests-on-prod
+[2023-05-21 18:57:08Z INFO JobDispatcher] Start renew job request 44 for job 477bd9cf-27fc-50c5-7e80-9efe101a6f00.
+[2023-05-21 18:57:09Z INFO JobDispatcher] Successfully renew job request 44, job is valid till 5/21/2023 7:07:09 PM
+[2023-05-21 18:57:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper] Starting process:
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin\Runner.Worker.exe'
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2260 2480'
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\akosp\Desktop\Programming\testing\github_actions_rtu\actions-runner\bin'
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-05-21 18:57:09Z INFO ProcessInvokerWrapper] Process started with process id 3280, waiting for process exit.
+[2023-05-21 18:57:09Z INFO JobDispatcher] Send job request message to worker for job 477bd9cf-27fc-50c5-7e80-9efe101a6f00.
+[2023-05-21 18:57:09Z INFO ProcessChannel] Sending message of length 21138, with hash '18892f4536922e03368b664184c9218382e2f892fc042544448e76093c78c032'
+[2023-05-21 18:57:09Z INFO JobNotification] Entering JobStarted Notification
+[2023-05-21 18:57:09Z INFO JobNotification] Entering StartMonitor
+[2023-05-21 18:57:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:57:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-05-21 18:57:18Z INFO ProcessInvokerWrapper] Finished process 3280 with exit code 100, and elapsed time 00:00:09.7360500.
+[2023-05-21 18:57:18Z INFO JobDispatcher] Worker finished for job 477bd9cf-27fc-50c5-7e80-9efe101a6f00. Code: 100
+[2023-05-21 18:57:18Z INFO JobDispatcher] finish job request for job 477bd9cf-27fc-50c5-7e80-9efe101a6f00 with result: Succeeded
+[2023-05-21 18:57:18Z INFO Terminal] WRITE LINE: 2023-05-21 18:57:18Z: Job Tests-on-prod completed with result: Succeeded
+[2023-05-21 18:57:18Z INFO JobDispatcher] Stop renew job request for job 477bd9cf-27fc-50c5-7e80-9efe101a6f00.
+[2023-05-21 18:57:18Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 44.
+[2023-05-21 18:57:18Z INFO JobNotification] Entering JobCompleted Notification
+[2023-05-21 18:57:18Z INFO JobNotification] Entering EndMonitor
