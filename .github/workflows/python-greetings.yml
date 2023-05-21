@@ -23,7 +23,7 @@ jobs:
         with:
           repository: 'mtararujs/python-greetings'
           path: 'tests'
-          url: 'https://github.com/mtararujs/python-greetings'
+          url: 'https://github.com/mtararujs/python-greetings.git'
       - run: echo Install Python dependencies!
   deploy-to-dev:
     runs-on: self-hosted
