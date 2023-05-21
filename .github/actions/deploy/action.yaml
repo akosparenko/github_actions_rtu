@@ -14,7 +14,7 @@ runs:
       working-directory: tests
       run: pip install -r requirements.txt
       shell: powershell
-    - name: Delete service
-      run: pm2 delete "books-${{ inputs.environment }}"
-    - name: Delete service
-      run: pm2 start -n "books-${{ inputs.environment }}" index.js -- ${{ inputs.port }}
+#    - name: Delete service
+#      run: pm2 delete "books-${{ inputs.environment }}"
+#    - name: Delete service
+#      run: pm2 start -n "books-${{ inputs.environment }}" index.js -- ${{ inputs.port }}
