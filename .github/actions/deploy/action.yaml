@@ -8,7 +8,6 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - uses: actions/checkout@v3.5.2
     - name: Print output
       run: echo Deployment to ${{ inputs.environment }} has started..
     - name: echo Install de
