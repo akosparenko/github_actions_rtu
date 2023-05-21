@@ -28,6 +28,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3.5.2
+      - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/python-greetings'
           path: 'tests'
