@@ -18,14 +18,13 @@ jobs:
   install-pip-deps:
     runs-on: self-hosted
     steps:
-      - run: mkdir $GITHUB_WORKSPACE
       - uses: actions/checkout@v3.5.2
-      - uses: ./.github/actions/build
       - uses: actions/checkout@v3.5.2
         with:
           repository: 'mtararujs/python-greetings'
           path: 'a'
           submodules: recursive
+#      - uses: ./.github/actions/build
   deploy-to-dev:
     runs-on: self-hosted
     steps:
