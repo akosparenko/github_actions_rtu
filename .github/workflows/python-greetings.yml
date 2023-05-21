@@ -19,7 +19,8 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3.5.2
-        with: 'mtararujs/python-greetings'
+        with:
+          repository: 'mtararujs/python-greetings'
       - run: echo Install Python dependencies!
   deploy-to-dev:
     runs-on: self-hosted
