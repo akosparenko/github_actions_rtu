@@ -20,11 +20,7 @@ runs:
     #      working-directory: tests
     #      continue-on-error: true
     #      run:  pm2 delete greetings-app-${{ inputs.environment }}; if ($LASTEXITCODE -eq 100) { $true }
-    - name: Install dependencies
-      shell: powershell
-
-      run: npm install; pm2 --version
     - name: Start service
       shell: powershell
       working-directory: tests
-      run: pm2 start app.py --name greetings-app-${{ inputs.environmSSSent }} -- ${{ inputs.port }}
+      run: pm2 start app.py --name greetings-app-${{ inputs.environmSSSent }} 
