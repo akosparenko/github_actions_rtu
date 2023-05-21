@@ -1,8 +1,7 @@
 runs:
   using: "composite"
   steps:
-    - uses: actions/checkout@v3.5.2
-    - name: echo Install de
+    - name: echo Install dependepcies
       working-directory: tests
       run: pip install -r requirements.txt
       shell: powershell
