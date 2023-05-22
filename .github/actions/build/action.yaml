@@ -4,4 +4,4 @@ runs:
     - name: echo Install dependepcies
       working-directory: deploy
       run: pip install -r requirements.txt
-      shell: powershell
+      shell: cmd
