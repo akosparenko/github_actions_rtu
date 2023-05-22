@@ -66,7 +66,7 @@ jobs:
           path: 'tests'
       - uses: ./.github/actions/deploy
         with:
-          environment: 'STAGING'
+          environment: 'staging'
           port: 7002
     needs: [ tests-on-dev ]
   tests-on-staging:
@@ -92,7 +92,7 @@ jobs:
           path: 'tests'
       - uses: ./.github/actions/deploy
         with:
-          environment: 'PRE_PROD'
+          environment: 'preprod'
           port: 7003
     needs: [ tests-on-staging ]
   tests-on-preprod:
@@ -119,7 +119,7 @@ jobs:
           clean: false
       - uses: ./.github/actions/deploy
         with:
-          environment: 'PROD'
+          environment: 'prod'
           port: 7004
     needs: [ tests-on-preprod ]
   Tests-on-prod:
