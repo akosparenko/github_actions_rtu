@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/actions-runner/_work/github_actions_rtu/github_actions_rtu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/course-js-api-framework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python-greetings" vcs="Git" />
   </component>
 </project>
