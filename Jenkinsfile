@@ -75,7 +75,7 @@ pipeline {
 def build(){
     echo "Building of node application is starting.."
     git branch: 'master', poll: false, url: 'https://github.com/mtararujs/python-greetings.git'
-    bat pip install -r requirements.txt
+    sh pip install -r requirements.txt
 }
 
 def deploy(String environment, int port){
