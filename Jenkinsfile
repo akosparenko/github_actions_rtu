@@ -89,7 +89,6 @@ def deploy(String environment, int port){
     bat "C:\\Users\\akosp\\AppData\\Roaming\\npm\\pm2 delete greeting-app-${environment} & EXIT /B 0"
 
     echo "Starting new app in environment:${environment}..."
-    bat "where python"
     bat "C:\\Users\\akosp\\AppData\\Roaming\\npm\\pm2 start app.py --name greeting-app-${environment} -- --port ${port}"
 }
 
