@@ -78,7 +78,7 @@ def build(){
     bat "dir"
     echo "Loading dependencies.."
     bat "pip --version"
-    bat "pip install -r requirements.txt"
+//     bat "pip install -r requirements.txt"
 }
 
 def deploy(String environment, int port){
