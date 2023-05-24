@@ -76,8 +76,8 @@ def build(){
     echo "Building of node application is starting.."
     git branch: 'master', poll: false, url: 'https://github.com/mtararujs/python-greetings.git', changelog: false
     bat "dir"
-    echo "Installing dependencies for python repo project"
-    bat "pip install -r requirements.txt"
+    echo "Loading dependencies.."
+    cmd "pip install -r requirements.txt"
 }
 
 def deploy(String environment, int port){
