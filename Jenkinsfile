@@ -74,7 +74,7 @@ pipeline {
 
 def build(){
     echo "Building of node application is starting.."
-    git branch: 'master', poll: false, url: 'https://github.com/mtararujs/python-greetings.git', changelog: false
+    git branch: 'main', poll: false, url: 'https://github.com/mtararujs/python-greetings.git', changelog: false
     bat "dir"
     echo "Loading dependencies.."
     bat "pip --version"
