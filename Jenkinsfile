@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    triggers{ pollSCM('*/1 * * * *') }
 
     stages {
         stage('install-pip-deps') {
@@ -13,56 +12,56 @@ pipeline {
         stage('deploy-to-dev') {
             steps {
                 script{
-                    deploy("DEV", 1010)
+                    deploy("DEV", 7001)
                 }
             }
         }
         stage('tests-on-dev') {
             steps {
                 script{
-                    test("BOOKS", "DEV")
+                    test("dev")
                 }
             }
         }
         stage('deploy-to-staging') {
             steps {
                 script{
-                    deploy("DEV", 1010)
+                    deploy("STAGE", 7002)
                 }
             }
         }
         stage('tests-on-staging') {
             steps {
                 script{
-                    test("BOOKS", "DEV")
+                    test("staging")
                 }
             }
         }
         stage('deploy-to-preprod') {
             steps {
                 script{
-                    deploy("DEV", 1010)
+                    deploy("PREPROD", 7003)
                 }
             }
         }
         stage('tests-on-preprod') {
             steps {
                 script{
-                    test("BOOKS", "DEV")
+                    test("preprod")
                 }
             }
         }
         stage('deploy-to-prod') {
             steps {
                 script{
-                    deploy("DEV", 1010)
+                    deploy("PROD", 7004)
                 }
             }
         }
         stage('tests-on-prod') {
             steps {
                 script{
-                    test("BOOKS", "DEV")
+                    test("prod")
                 }
             }
         }
@@ -73,7 +72,7 @@ pipeline {
 // for linux/macos: sh "npm .."
 
 def build(){
-    echo "Building of node application is starting.."
+    echo "Building application is starting.."
     git branch: 'main', poll: false, url: 'https://github.com/mtararujs/python-greetings.git', changelog: false
     bat "dir"
     echo "Loading dependencies.."
@@ -82,11 +81,24 @@ def build(){
 
 def deploy(String environment, int port){
     echo "Deployment to ${environment} has started.."
-    bat "pm2 delete \"books-${environment}\""
-    bat "pm2 start -n \"books-${environment}\" index.js -- ${port}"
+    echo "Cloning repo..."
+    git branch: 'main', poll: false, url: 'https://github.com/mtararujs/python-greetings.git', changelog: false
+
+    echo "Deleting app..."
+    bat "C:\\Users\\akosp\\AppData\\Roaming\\npm\\pm2 delete greeting-app-${environment} & EXIT /B 0"
+
+    echo "Starting new appin environment:${environment}..."
+    bat "C:\\Users\\akosp\\AppData\\Roaming\\npm\\pm2 start app.py --name greeting-app-${environment} -- --port ${port}"
 }
 
-def test(String test_set, String environment){
-    echo "Testing ${test_set} test set on ${environment} has started.."
-    bat "npm run ${test_set} ${test_set}_${environment}"
+def test(String environment){
+    echo "Testing stage ${environment}"
+    echo "cloning the repo..."
+    git branch: 'main', changelog: false, poll: false, url: 'https://github.com/mtararujs/course-js-api-framework.git'
+
+    echo "Installing dependencies..."
+    bat "npm install"
+
+    echo "Running the tests..."
+    bat "npm run greetings greetings_${environment}"
 }
