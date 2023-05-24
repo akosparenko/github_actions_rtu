@@ -12,7 +12,7 @@ pipeline {
         stage('deploy-to-dev') {
             steps {
                 script{
-                    deploy("DEV", 7001)
+                    deploy("dev", 7001)
                 }
             }
         }
@@ -26,7 +26,7 @@ pipeline {
         stage('deploy-to-staging') {
             steps {
                 script{
-                    deploy("STAGE", 7002)
+                    deploy("staging", 7002)
                 }
             }
         }
@@ -40,7 +40,7 @@ pipeline {
         stage('deploy-to-preprod') {
             steps {
                 script{
-                    deploy("PREPROD", 7003)
+                    deploy("preprod", 7003)
                 }
             }
         }
@@ -54,7 +54,7 @@ pipeline {
         stage('deploy-to-prod') {
             steps {
                 script{
-                    deploy("PROD", 7004)
+                    deploy("prod", 7004)
                 }
             }
         }
@@ -83,11 +83,13 @@ def deploy(String environment, int port){
     echo "Deployment to ${environment} has started.."
     echo "Cloning repo..."
     git branch: 'main', poll: false, url: 'https://github.com/mtararujs/python-greetings.git', changelog: false
+    bat "pip install -r requirements.txt"
 
     echo "Deleting app..."
     bat "C:\\Users\\akosp\\AppData\\Roaming\\npm\\pm2 delete greeting-app-${environment} & EXIT /B 0"
 
-    echo "Starting new appin environment:${environment}..."
+    echo "Starting new app in environment:${environment}..."
+    bat "which python"
     bat "C:\\Users\\akosp\\AppData\\Roaming\\npm\\pm2 start app.py --name greeting-app-${environment} -- --port ${port}"
 }
 
