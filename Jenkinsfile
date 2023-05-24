@@ -77,6 +77,7 @@ def build(){
     git branch: 'master', poll: false, url: 'https://github.com/mtararujs/python-greetings.git', changelog: false
     bat "dir"
     echo "Loading dependencies.."
+    cmd "pip --version"
     cmd "pip install -r requirements.txt"
 }
 
